@@ -98,6 +98,7 @@ public abstract class AbstractXmlApplicationContext extends AbstractRefreshableC
 		//当Bean读取器读取Bean定义的Xml资源文件时，启用Xml的校验机制
 		initBeanDefinitionReader(beanDefinitionReader);
 		//Bean读取器真正实现加载的方法
+		//kim:实现加载的方法
 		loadBeanDefinitions(beanDefinitionReader);
 	}
 
